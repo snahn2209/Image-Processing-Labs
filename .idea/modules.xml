@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BV1_Han_Macht/BV1_Vorgabe.iml" filepath="$PROJECT_DIR$/BV1_Han_Macht/BV1_Vorgabe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BV3_Vorgabe/BV3_Vorgabe.iml" filepath="$PROJECT_DIR$/BV3_Vorgabe/BV3_Vorgabe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BV4&amp;5_Vorgabe/BV4_Vorgabe.iml" filepath="$PROJECT_DIR$/BV4&amp;5_Vorgabe/BV4_Vorgabe.iml" />
+    </modules>
+  </component>
+</project>
