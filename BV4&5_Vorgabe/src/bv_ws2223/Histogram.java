@@ -36,9 +36,10 @@ public class Histogram {
 	}
 
 	public void setImageRegion(RasterImage image, int regionStartX, int regionStartY, int regionWidth, int regionHeight) {
+		// TODO: calculate histogram[] out of the gray values found the given image region
 		histogram = new int[grayLevels];
 		MaxValue=0;
-		// TODO: calculate histogram[] out of the gray values found the given image region
+
 		for (int yPos=regionStartY; yPos<regionStartY+regionHeight; yPos++){
 			for(int xPos= regionStartX; xPos<regionStartX+regionWidth; xPos++){
 				int x=xPos;
@@ -65,7 +66,8 @@ public class Histogram {
 		}
 
 	}
-	
+
+	//TODO: Implement getMinimum(), getMaximum(), getMean(), getMedian(), get Variance(), getEntropy()
 	public Integer getMinimum() {
 		// Will be used in Exercise 5.
 		for (int j=0; j< histogram.length;j++){

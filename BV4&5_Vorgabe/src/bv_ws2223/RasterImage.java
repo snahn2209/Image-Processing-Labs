@@ -120,7 +120,7 @@ public class RasterImage {
 		
 		// Will be used in Exercise 5. Nothing to do in Exercise 4.
 		
-		// Create an overlay image that contains half transparent green pixels where a
+		// TODO: Create an overlay image that contains half transparent green pixels where a
 		// statistical property locally exceeds the given threshold. 
 		// Use a sliding window of size regionSize x regionSize.
 		// Use "switch(visualization)" to determine, what statistical property should be used
